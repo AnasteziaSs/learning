@@ -153,6 +153,13 @@ color: #80b7b3;
 opacity:0.3;}
 .content__bottom-btn {
 	font-size: 10px;
-	margin: ;
+	margin: 0px 0px 0px 0px;
 	background: url(../img/light_man_copy_26.jpg) 0 auto no-repeat;
+	background: url() left no-repeat ;
+
+}
+.content__bottom-lis{
+	inset: ;
+	border: 10px 10px #000;
+
 }
