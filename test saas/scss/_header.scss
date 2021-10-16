@@ -1,0 +1,46 @@
+$otsupL: -27px;
+$otsup: -6px;
+header {
+	p {
+		font-family: Arial;
+		font-size: 14px;
+		line-height: 40px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		color: #000000;
+	}
+	.spisok1 {
+		margin: 10px 0px 50px 0px;
+		li {
+			position: relative;
+			margin: 0 0px 10px 0;
+		}
+		li:nth-child(1) {
+			text-decoration: line-through;
+		}
+		li:nth-child(2) {
+			font-weight: 700;
+		}
+		li:nth-child(3) {
+			стиль шрифта: italic;
+		}
+		li:last-child {
+			text-transform: uppercase;
+		}
+	}
+
+	.spisok1 li:before {
+		content: "";
+		width: 24px;
+		height: 20px;
+		background: url("../img/icons/check_icon_38.png") no-repeat;
+		position: absolute;
+		left: $otsupL;
+		top: $otsup;
+	}
+}
+.spisok1 li:hover {
+	color: red;
+}
+wqew;

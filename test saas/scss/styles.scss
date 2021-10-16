@@ -1,0 +1,12 @@
+@import "_nullstyle.scss";
+@import "_header.scss";
+@import "_content_centr.scss";
+
+$otsupL: -27px;
+$otsup: -6px;
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.content {
+	margin: 100px 0 0 150px;
+}
