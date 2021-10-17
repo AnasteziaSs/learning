@@ -1,0 +1,179 @@
+@import "_nullstyle.scss";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+	font-family: "lato", sans-serif;
+}
+.startpage {
+	height: 1080px;
+	background: url("../img/logo/bg1.png") no-repeat;
+	text-align: center;
+}
+.container {
+	width: 1920px;
+}
+.startpage-logo {
+	padding: 150px 0 150px 0px;
+	text-align: center;
+}
+.logo {
+}
+.startpage-content {
+	// .startpage-content__title
+
+	&__title {
+		font-size: 34px;
+		line-height: 40px;
+		font-weight: 900;
+		text-transform: uppercase;
+		letter-spacing: 0.16em;
+		color: #ffffff;
+		margin: 0 0 5px 0;
+		position: relative;
+		&::before {
+			content: "";
+			width: 105px;
+			height: 2px;
+			background-color: #ffffff;
+			position: absolute;
+			margin-top: 150px;
+			margin-left: -50px;
+			left: 50%;
+			&:hover //!no working
+			{
+				background-color: #6f14e7;
+			}
+		}
+	}
+
+	// .startpage-content__sub-title
+
+	&__sub-title {
+		font-size: 26px;
+		font-weight: 400;
+		text-transform: none;
+		color: #ffffff;
+		letter-spacing: 0.16em;
+		line-height: 40px;
+	}
+}
+.startpage-bottom {
+	// .startpage-bottom__btn
+
+	&__btn {
+		margin: 150px 0 0 0;
+		position: relative;
+	}
+
+	// .startpage-bottom__nav
+
+	&__nav {
+		margin: 80px 0 0 0;
+	}
+}
+.bottom {
+	// .bottom__btn
+
+	&__btn {
+	}
+
+	// .bottom__nav--hover
+
+	&__nav--hover {
+	}
+}
+.btn-nav {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	width: 182px;
+	height: 47px;
+	text-align: center;
+	padding: 11px 0 0 0;
+	&:hover {
+		border-color: #6f14e7;
+	}
+}
+.btn-nav--hover {
+}
+.about {
+}
+.menu {
+	// .menu__items
+
+	&__items {
+	}
+
+	// .menu__items-item
+
+	&__items-item {
+	}
+}
+.about-content {
+	// .about-content__title
+
+	&__title {
+	}
+
+	// .about-content__sub-title
+
+	&__sub-title {
+	}
+}
+.title {
+}
+.about-bottom {
+}
+.about-items {
+	// .about-items__img
+
+	&__img {
+	}
+
+	// .about-items__title
+
+	&__title {
+	}
+
+	// .about-items__text
+
+	&__text {
+	}
+}
+.portfolio {
+	// .portfolio__content
+
+	&__content {
+	}
+
+	// .portfolio__content-item
+
+	&__content-item {
+	}
+
+	// .portfolio__nav
+
+	&__nav {
+	}
+}
+.nav {
+	// .nav__item
+
+	&__item {
+	}
+}
+.portfolio-bottom {
+	// .portfolio-bottom__btn
+
+	&__btn {
+	}
+
+	// .portfolio-bottom__nav
+
+	&__nav {
+	}
+}
